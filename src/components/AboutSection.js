@@ -4,7 +4,7 @@ import '../css/AboutSection.css';
 function AboutSection() {
   return (
     <section className="about-section">
-      <h2>About O1-labs</h2>
+      <h2>About Chainaim Labs</h2>
       <p> lightweight blockchain that uses zero-knowledge proofs to maintain a constant size, regardless of the number of transactions. This makes it unique in the blockchain space.</p>
 
       <div className="info-blocks">
