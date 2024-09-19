@@ -40,7 +40,7 @@ function Map() {
         </div>
 
         <div className="col">
-          <h2>Mina and CrossChains</h2>
+          <h2>MINA and CrossChains</h2>
           <p></p>
           <div className="mina-protokit">
             <div className="box"></div>

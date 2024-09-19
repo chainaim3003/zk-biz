@@ -24,7 +24,7 @@ function Technologies() {
         </TechnologyCard>
         <TechnologyCard
           title="MINA and Multi-Chain Mimimal Proof Availability"
-          description=" Scalable Aggregations for Bringing Enterprise scale Proofs  "
+          description=" Scalable Aggregations for Bringing Enterprise Scale Proofs  "
           icon="⚪"
         >
           <p>MTNA</p>
