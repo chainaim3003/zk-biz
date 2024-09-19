@@ -14,7 +14,7 @@ function Map() {
 
       <div className="row">
 
-      <img src={${process.env.PUBLIC_URL}/images/Slide7.JPG} alt="Architecture" className="image-class" />
+          <img src="/images/Slide7.JPG" alt="ZK BP" className="image-class" />
 
       </div>  
 
