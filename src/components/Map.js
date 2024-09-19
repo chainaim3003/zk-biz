@@ -8,6 +8,16 @@ function Map() {
       <h1>Our Technologies</h1>
       <div className="branch-line"></div>
       <div className="branch-line-horizontal"></div>
+
+      <div className="row">
+     </div>  
+
+      <div className="row">
+
+      <img src={${process.env.PUBLIC_URL}/images/Slide7.JPG} alt="Architecture" className="image-class" />
+
+      </div>  
+
       <div className="row">
         <div className="col">
           <h2>ZK BP</h2>
