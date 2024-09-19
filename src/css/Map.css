@@ -91,10 +91,43 @@
   
   .branch-line-horizontal {
     width: 600px;
-    height: 3px;
+    height: px;
     background-color: #fff;
     position: absolute;
     top: 345px;
     left: calc(50% - 300px);
   }
+  .image-container {
+    margin-bottom: 40px; /* Increased margin to push image down */
+    padding-top: 40px; /* Add padding at the top to move the image further down */
+  }
+  
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; /* Adjust this for fine-tuning the vertical position */
+  }
+  
+  .image-class {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-class:hover {
+    transform: scale(1.05);
+  }
+  .heading-container {
+    margin-top: 290px; /* Adjust this value to move the heading down */
+    text-align: center;
+  }
+  
+  .heading-container h1 {
+    margin-bottom: 30px; /* Adjust bottom margin if needed */
+    font-size: 2.5rem;
+    color: white;
+  }
+  
   

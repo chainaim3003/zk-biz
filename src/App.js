@@ -16,7 +16,7 @@ function App() {
       <div className="image-container">
         {/* <ImageComponent src={customImage} /> */}
       </div>
-
+      
       <Map /> {/* Map component added here */}
       {/* <AboutSection /> */}
 
