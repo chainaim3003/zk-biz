@@ -1,0 +1,121 @@
+
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.7.6
+** Copyright (c) 2022 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>set INCLUDE=
+
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>set CFLAGS=-I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include"
+
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>
+c:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>cd C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic
+
+C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>
+C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>cargo clean
+     Removed 1944 files, 601.8MiB total
+
+C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\examplebasic>cargo build
+   Compiling windows_x86_64_msvc v0.52.6
+   Compiling proc-macro2 v1.0.86
+   Compiling unicode-ident v1.0.12
+   Compiling glob v0.3.1
+   Compiling prettyplease v0.2.22
+   Compiling rustix v0.38.34
+   Compiling libc v0.2.169
+   Compiling bitflags v2.6.0
+   Compiling memchr v2.7.4
+   Compiling minimal-lexical v0.2.1
+   Compiling either v1.13.0
+   Compiling regex-syntax v0.8.4
+   Compiling bindgen v0.69.4
+   Compiling shlex v1.3.0
+   Compiling once_cell v1.19.0
+   Compiling log v0.4.22
+   Compiling shell-words v1.1.0
+   Compiling lazy_static v1.5.0
+   Compiling rustc-hash v1.1.0
+   Compiling lazycell v1.3.0
+   Compiling cc v1.2.10                                                                                                                                                    
+   Compiling build-probe-mpi v0.1.4                                                                                                                                        
+   Compiling itertools v0.12.1                                                                                                                                             
+   Compiling clang-sys v1.8.1                                                                                                                                              
+   Compiling nom v7.1.3                                                                                                                                                    
+   Compiling windows-targets v0.52.6                                                                                                                                       
+   Compiling windows-sys v0.52.0                                                                                                                                           
+   Compiling libloading v0.8.5
+   Compiling regex-automata v0.4.7                                                                                                                                         
+   Compiling quote v1.0.36
+   Compiling syn v2.0.79
+   Compiling cexpr v0.6.0
+   Compiling regex v1.10.6
+   Compiling errno v0.3.9
+   Compiling home v0.5.9
+   Compiling which v4.4.2
+   Compiling mpi-sys v0.2.2
+The following warnings were emitted during compilation:
+
+warning: mpi-sys@0.2.2: cl : Command line warning D9024 : unrecognized source file type 'Files', object file assumed
+warning: mpi-sys@0.2.2: cl : Command line warning D9027 : source file 'Files' ignored
+warning: mpi-sys@0.2.2: cl : Command line warning D9024 : unrecognized source file type '(x86)\Microsoft', object file assumed
+warning: mpi-sys@0.2.2: cl : Command line warning D9027 : source file '(x86)\Microsoft' ignored
+warning: mpi-sys@0.2.2: cl : Command line warning D9024 : unrecognized source file type 'SDKs\MPI\Include"', object file assumed
+warning: mpi-sys@0.2.2: cl : Command line warning D9027 : source file 'SDKs\MPI\Include"' ignored
+
+error: failed to run custom build command for `mpi-sys v0.2.2`
+
+Caused by:
+  process didn't exit successfully: `C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\target\debug\build\mpi-sys-f50c49356426979b\build-script-build` (exit code: 1)
+  --- stdout
+  cargo:rustc-cfg=msmpi
+  OPT_LEVEL = Some(3)
+  OUT_DIR = Some(C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\target\debug\build\mpi-sys-fc454822a8c72ac4\out)
+  TARGET = Some(x86_64-pc-windows-msvc)
+  cargo:rerun-if-env-changed=VCINSTALLDIR
+  VCINSTALLDIR = Some(C:\Program Files\Microsoft Visual Studio\2022\Community\VC\)
+  cargo:rerun-if-env-changed=VSCMD_ARG_TGT_ARCH
+  VSCMD_ARG_TGT_ARCH = Some(x64)
+  PATH = Some(C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\target\debug\deps;C:\SATHYA\ENCODE\EXPANDER\EXP-TRIAL-PROJECT\ExpanderCompilerCollection\target\debug;C:\Users\sathy\.rustup\toolchains\nightly-2024-09-01-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\sathy\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;"C:\Program Files\Microsoft MPI\Bin\;%PATH%";C:\Users\sathy\.cargo\bin;C:\Users\sathy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\sathy\AppData\Local\Programs\Python\Python311\;C:\Users\sathy\AppData\Local\Microsoft\WindowsApps;C:\Users\sathy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sathy\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\sathy\go\bin)
+  HOST = Some(x86_64-pc-windows-msvc)
+  cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+  CC_x86_64-pc-windows-msvc = None
+  cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+  CC_x86_64_pc_windows_msvc = None
+  cargo:rerun-if-env-changed=HOST_CC
+  HOST_CC = None
+  cargo:rerun-if-env-changed=CC
+  CC = None
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,lahfsahf,sse,sse2,sse3)
+  DEBUG = Some(true)
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+  CFLAGS_x86_64-pc-windows-msvc = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+  CFLAGS_x86_64_pc_windows_msvc = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = Some(-I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include")
+  cargo:rerun-if-env-changed=CC_SHELL_ESCAPED_FLAGS
+  CC_SHELL_ESCAPED_FLAGS = None
+  CARGO_ENCODED_RUSTFLAGS = Some()
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:warning=cl : Command line warning D9024 : unrecognized source file type 'Files', object file assumed
+  cargo:warning=cl : Command line warning D9027 : source file 'Files' ignored
+  cargo:warning=cl : Command line warning D9024 : unrecognized source file type '(x86)\Microsoft', object file assumed
+  cargo:warning=cl : Command line warning D9027 : source file '(x86)\Microsoft' ignored
+  cargo:warning=cl : Command line warning D9024 : unrecognized source file type 'SDKs\MPI\Include"', object file assumed
+  cargo:warning=cl : Command line warning D9027 : source file 'SDKs\MPI\Include"' ignored
+  rsmpi.c
+  C:\Users\sathy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\mpi-sys-0.2.2\src\rsmpi.h(3): fatal error C1083: Cannot open include file: 'mpi.h': No such file or directory
+
+  --- stderr
+
+
+  error occurred in cc-rs: Command "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include" "-I\"C:\\Program" "Files" "(x86)\\Microsoft" "SDKs\\MPI\\Include\"" "-FoC:\\SATHYA\\ENCODE\\EXPANDER\\EXP-TRIAL-PROJECT\\ExpanderCompilerCollection\\target\\debug\\build\\mpi-sys-fc454822a8c72ac4\\out\\ea708c7824d36062-rsmpi.o" "-c" "src/rsmpi.c" with args cl.exe did not execute successfully (status code exit code: 2).
+
